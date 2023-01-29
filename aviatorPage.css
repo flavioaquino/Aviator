@@ -1,0 +1,69 @@
+body {
+  background-color:black;
+}
+
+.title {
+    color: #ca0f14;
+    font-size: 34px;
+    font-weight: 700;
+    margin: 62px 0 4px;
+}
+
+#foto {
+    animation: jump 2s linear infinite;
+}
+
+@keyframes jump {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+
+.pa {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 62px 0 4px;
+}
+
+.foto {
+  width: 50%;
+}
+
+#random-number {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#random-numbermsg {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+#msng {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#loading-screen {
+    background-color: red;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+}
+
+#loading-text {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
